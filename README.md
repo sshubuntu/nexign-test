@@ -5,7 +5,7 @@
 [Установка docker](https://docs.docker.com/engine/install/)
 
 ## Задание 1
-[Инструкция -> task1/README.md](https://github.com/sh-ub/nexign-test/blob/main/task1/README.md)
+[Инструкция -> task1/README.md](https://github.com/sshubuntu/nexign-test/blob/249546a4065da8599e8843fd8be153a6aa2c4873/task1/README.md)
 
 ## Задание 2
-[Инструкция -> task2/README.md](https://github.com/sh-ub/nexign-test/blob/main/task2/README.md)
+[Инструкция -> task2/README.md](https://github.com/sshubuntu/nexign-test/blob/249546a4065da8599e8843fd8be153a6aa2c4873/task2/README.md)

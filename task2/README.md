@@ -55,3 +55,5 @@ curl -u guest:guest -X POST \
 kubectl logs  deployment.apps/app4 -n nexign-test
 ```
 
+# Схема
+![image alt](https://github.com/sshubuntu/nexign-test/blob/249546a4065da8599e8843fd8be153a6aa2c4873/task2/scheme.png)

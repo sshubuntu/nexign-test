@@ -7,6 +7,5 @@
 ## Задание 1
 [Инструкция -> task1/README.md](https://github.com/sh-ub/nexign-test/blob/main/task1/README.md)
 
-## Task 2
-
+## Задание 2
 [Инструкция -> task2/README.md](https://github.com/sh-ub/nexign-test/blob/main/task2/README.md)

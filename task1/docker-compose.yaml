@@ -1,0 +1,23 @@
+services: 
+  nexign-container: 
+    build: .
+    ports: 
+      - "6379:6379"
+    restart: unless-stopped
+    volumes:
+      - valkey-data:/data
+    healthcheck:
+      test: ["CMD", "/usr/local/bin/valkey-cli", "ping"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 20s
+    networks:
+      - backend
+
+networks: 
+  backend: 
+    name: nexign-net
+
+volumes: 
+  valkey-data:

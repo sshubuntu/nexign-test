@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app4
+  namespace: nexign-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app4
+  template:
+    metadata:
+      labels:
+        app: app4
+    spec:
+      containers:
+      - name: app4
+        image: app:1.0.3
+        env:
+        - name: APP_NAME
+          value: "App4"
+        - name: MY_QUEUE
+          value: "app4-queue"
